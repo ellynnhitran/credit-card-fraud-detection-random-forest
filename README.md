@@ -30,9 +30,9 @@ is_fraud: Label indicating if the transaction is fraudulent (1) or not (0)
 - Collect Data
 - Prepare the Data
  + Clean: Address any missing or corrupt data.
- + Normalize: Scale the data to prevent bias towards higher magnitude features.
- + Encode: Transform categorical data into numeric formats, such as through one-hot encoding.
- + Feature Engineering: Create new features or modify existing ones to enhance model performance.
+ + Normalize: Normalize numerical data with Standard Scaler\
+ + Encode: Transform categorical data into numeric formats through one-hot encoding for categorical features.
+ + Feature Engineering: Create new feature "hour of the day" to enhance patterns analysis
    
 2. Exploratory Data Analysis
 - Spending Category VS Fraud
