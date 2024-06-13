@@ -30,7 +30,7 @@ is_fraud: Label indicating if the transaction is fraudulent (1) or not (0)
 - Collect Data
 - Prepare the Data
  + Clean: Address any missing or corrupt data.
- + Normalize: Normalize numerical data with Standard Scaler\
+ + Normalize: Normalize numerical data with Standard Scaler.
  + Encode: Transform categorical data into numeric formats through one-hot encoding for categorical features.
  + Feature Engineering: Create new feature "hour of the day" to enhance patterns analysis
    
